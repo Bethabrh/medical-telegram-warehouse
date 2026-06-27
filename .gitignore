@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.env
+*.session
+*.session-journal
+
+# Large data files - don't push
+data/
+logs/
+
+# dbt
+medical_warehouse/target/
+medical_warehouse/dbt_packages/
+
+# OS
+.DS_Store
+Thumbs.db
